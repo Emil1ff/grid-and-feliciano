@@ -1,0 +1,767 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    height: 48px;
+    background-color: #ffffff;
+}
+
+nav ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul .other-home a{
+    color: #C8A97E;
+    transition: .5s;
+}
+nav ul .other-home a:hover{
+    color: black;
+}
+
+a{
+    color: black;
+}
+
+.nav-item-cte a{
+    background-color: #C8A97E;
+    color: white;
+    padding: 17px;
+    transition: 0.5s;
+
+}
+.nav-item-cte a:hover{
+    color: black;
+}
+
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.first-body{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+    margin-top: 30px;
+    width: 100%;
+    height: 620px;
+    background-color: #FAFAFA;
+    
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 270px;
+
+    gap: 20px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: #C8A97E;
+
+}
+.card h3{
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+    font-family: Poppins, Arial, sans-serif;
+}
+
+.card h3:hover{
+    color: #97713c;
+}
+.card p{
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #666666;
+    transition: .3s;
+    font-family: Poppins, Arial, sans-serif;
+}
+.card p:hover{
+    color: #97713c;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.serv{
+    font-family: "Great Vibes", cursive;
+    font-size: 100px;
+    color: #C8A97E;
+    
+}
+
+.serv-h{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -70px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    color: rgb(24, 24, 24);
+    
+}
+
+.body-about{
+    padding: 30px 0px;
+    height: 650px;
+    margin: 0 auto;
+    display: flex;
+    width: 1200px;
+    gap: 35px;
+    
+}
+
+img{
+    width: 309px;
+    height: 520px;
+    object-fit:cover;
+    
+}
+.img-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height:550px;
+    width: 650px;
+    gap: 20px;
+}
+
+.img-right img:nth-child(1){
+    align-self: flex-start;
+}
+
+.head2 span{
+    font-size: 100px;
+    margin-bottom: 0;
+    color: #c8a97e;
+    font-family: "Great Vibes", cursive;
+}
+
+.head2 h2{
+    font-family: "Great Vibes", cursive;
+    font-size: 50px;
+    margin-top: -70px;
+    color: rgb(24, 24, 24);
+    width: 70px;
+    height: 180px;
+}
+.right-abaut p ,.date{
+    font-family: Poppins, Arial, sans-serif;
+    font-size: 20px;
+    color: #666666;
+    transition: .3s;
+    width: 445px;
+    height: 140px;
+    
+}
+
+.number{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color:#C8A97E;
+    transition: .3s;
+    width: 352px;
+    height:56px;
+}
+
+.body-numbers{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+}
+.num{
+    display: flex;
+    flex-direction: column;
+}
+.num strong{
+    font-size: 44px;
+    color: #C8A97E;
+}
+
+.num span{
+    font-size: 20px;
+    color: #666666;
+}
+
+.num-card{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.body-numbers p{
+    font-size: 20px;
+    color: #666666;
+    width: 285px;
+    height: 152px;
+}
+
+.body-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(https://preview.colorlib.com/theme/feliciano/images/bg_2.jpg);
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+}
+
+.body-head span{
+    font-size: 80px;
+    color: #c8a97e;
+    font-family: "Great Vibes", cursive;
+}
+
+.body-head h2{
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    border-top: #ffffff63 solid 1px;
+    padding: 22px 0px;
+    margin-top: -200px;
+}
+.tasty-menus img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.tasty-menus{
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    height: 155px;
+    align-items: center;
+}
+
+.tasty-menus h3{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.tasty-menus p{
+    color: #ffffffbb;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #141313;
+    color: #ffffff;
+    padding: 30px 0px 0px 0px;
+    gap: 50px;
+    height: 550px;
+    width: 100%;
+}
+.fel-top{
+    display: flex;
+    margin-top: 30px;
+    margin: 0 auto;
+    gap: 35px;
+}
+
+.insta-img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 255px;
+}
+
+.insta-img img{
+    width: 85px;
+    height: 100px;
+}
+
+.fel-abo,.fel-hours,.fel-form,.fel-insta{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 255px;
+}
+
+.fel-ico{
+    display: flex;
+    gap: 40px;
+    width: 255px;
+}
+
+.fel-ico i{
+    background-color: #201F1F;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    padding: 6px
+}
+
+
+.fel-hours li{
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form input{
+    border-radius: 2px;
+    height: 50px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    text-align: center;
+}
+
+form .button{
+    background-color: #b4905d;
+}
+
+@media screen and (max-width:1200px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        padding: 8px;
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        height: 48px;
+        background-color: #000000;
+    }
+    
+    a{
+        color: rgb(255, 255, 255);
+    }
+    .nav-item-cte a:hover{
+        color: black;
+    }
+
+    .first-body{
+        width: 100%;
+        height: auto;
+        background-color: #d4d4d4;
+    }
+    
+    .cards{
+        display: flex;
+        gap: 30px;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 350px;
+        height: 270px;
+        gap: 20px;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        font-size: 60px;
+        color: #C8A97E;
+    
+    }
+    .card h3{
+        font-size: 20px;
+    }
+    
+    .card p{
+        font-size: 17px;
+    }
+
+    .head{
+        width: 100%;
+    }
+    
+    .serv{
+        font-size: 80px;
+    }
+    
+    .serv-h{
+        font-size: 30px;
+        margin-top: -50px;
+        
+    }
+    
+    .body-about{
+        height: auto;
+        width: 100%;
+        gap: 35px;
+        
+    }
+    
+    img{
+        width: 209px;
+        height: 420px;
+        object-fit:cover;
+        
+    }
+    .img-right{
+        justify-content: center;
+        height:auto;
+        width: 650px;
+    }
+    
+    .head2 span{
+        font-size: 70px;
+    }
+    
+    .head2 h2{
+        font-family: "Great Vibes", cursive;
+        font-size: 30px;
+        margin-top: -50px;
+        color: rgb(24, 24, 24);
+        width: 70px;
+        height: 180px;
+    }
+    .right-abaut p ,.date{
+        display: flex;
+        font-size: 17px;
+        width: 400px;
+        height: auto;
+        gap: 20px;
+    }
+    
+    .number{
+        font-size: 25px;
+        height:auto;
+    }
+    
+    .body-numbers{
+        width: 100%;
+        padding: 0px 20px;
+        height: auto;
+        padding: 20px;
+    }
+    .num strong{
+        font-size: 34px;
+    }
+    
+    .num span{
+        font-size: 17px;
+    }
+    
+    .body-numbers p{
+        font-size: 17px;
+        height: auto;
+    }
+    
+    .body-home{
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(https://preview.colorlib.com/theme/feliciano/images/bg_2.jpg);
+        width: 100%;
+        height: 800px;
+    }
+    .body-head span{
+        font-size: 60px;
+    }
+    .body-head h2{
+        font-size: 40px;
+    }
+    .row{
+        background-color: #141313;
+    }
+    .tasty-menus img{
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+    }
+    
+    .tasty-menus{
+        width: 345px;
+        height: 155px;
+    }
+    
+    .tasty-menus h3{
+        font-size: 15px;
+    }
+    
+    .tasty-menus p{
+        font-size: 14px;
+    }
+    footer{
+        flex-wrap: wrap;
+        gap: 40px;
+        height: auto;
+        width: 100%;
+        padding: 30px;
+    }
+    .fel-top{
+        gap: 35px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .insta-img{
+        display: flex;
+        flex-wrap: wrap;
+        width: 255px;
+    }
+    
+    .insta-img img{
+        width: 85px;
+        height: 100px;
+    }
+    
+    .fel-abo,.fel-hours,.fel-form,.fel-insta{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 255px;
+    }
+    
+    .fel-ico{
+        display: flex;
+        gap: 40px;
+        width: 255px;
+    }
+    
+    .fel-ico i{
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    nav ul{
+        display: none;
+    }
+    a{
+        color: rgb(255, 255, 255);
+    }
+    
+    .card{
+        width: 350px;
+        height: 270px;
+        gap: 20px;
+    }
+    .card h3{
+        font-size: 20px;
+    }
+    .card p{
+        font-size: 17px;
+    }
+
+    .head{
+        width: 100%;
+    }
+    
+    .serv{
+        font-size: 80px;
+    }
+    
+    .serv-h{
+        font-size: 30px;
+        margin-top: -50px;
+        
+    }
+    
+    .body-about{
+        height: auto;
+        width: 100%;
+        gap: 10px;
+    }
+    
+    .img-right{
+        justify-content: center;
+        height:auto;
+        width: 550px;
+    }
+    
+    .right-abaut p ,.date{
+        display: flex;
+        font-size: 17px;
+        width: 200px;
+        height: auto;
+        gap: 20px;
+    }
+    
+    .number{
+        font-size: 25px;
+        height:auto;
+    }
+    
+    .body-numbers{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 30px;
+        height: auto;
+        gap: 30px;
+    }
+    .num strong{
+        font-size: 34px;
+    }
+    
+    .num span{
+        font-size: 17px;
+    }
+    .num-card{
+        flex-wrap: wrap;
+    }
+    .body-numbers p{
+        font-size: 17px;
+        height: auto;
+    }
+    
+    .body-home{
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(https://preview.colorlib.com/theme/feliciano/images/bg_2.jpg);
+        width: 100%;
+        height: 780px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .body-head span{
+        font-size: 60px;
+    }
+    .body-head h2{
+        font-size: 40px;
+    }
+    .row{
+        background-color: #141313;
+    }
+    .tasty-menus img{
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+    }
+    
+    .tasty-menus{
+        width: 345px;
+        height: 155px;
+    }
+    
+    .tasty-menus h3{
+        font-size: 15px;
+    }
+    
+    .tasty-menus p{
+        font-size: 14px;
+    }
+    footer{
+        flex-wrap: wrap;
+        gap: 40px;
+        height: auto;
+        width: 100%;
+        padding: 30px;
+    }
+    .fel-top{
+        gap: 35px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .insta-img{
+        display: flex;
+        flex-wrap: wrap;
+        width: 255px;
+    }
+    
+    .insta-img img{
+        width: 85px;
+        height: 100px;
+    }
+    
+    .fel-abo,.fel-hours,.fel-form,.fel-insta{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 255px;
+    }
+    
+    .fel-ico{
+        display: flex;
+        gap: 40px;
+        width: 255px;
+    }
+    
+    .fel-ico i{
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .card{
+        width: 350px;
+        height: 270px;
+        gap: 20px;
+    }
+    .serv{
+        font-size: 60px;
+    }
+    .row{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .serv-h{
+        font-size: 25px;
+        margin-top: -30px;
+        
+    }
+    
+    .body-about{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        gap: 5px;
+    }
+    
+    
+    .right-abaut p ,.date{
+        height: auto;
+        gap: 10px;
+    }
+    
+    .number{
+        flex-wrap: wrap;
+        font-size: 25px;
+        height:auto;
+    }
+    
+    
+}
